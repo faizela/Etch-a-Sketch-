@@ -1,0 +1,24 @@
+#container {
+    color:red;
+    border: solid;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+} 
+
+
+.divs {
+    flex-basis: calc(100% / 16); /* Each item takes up 1/16th of the container's width */
+    height: calc(100% / 16); /* Each item takes up 1/16th of the container's height */
+    box-sizing: border-box; /* Ensure borders are included in width and height calculation */
+    border: 3px solid black; /* Border for visualization */
+
+}
+
+.divs:hover {
+    background-color: yellow
+}
